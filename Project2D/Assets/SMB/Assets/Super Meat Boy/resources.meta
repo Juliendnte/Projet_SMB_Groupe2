@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Project2D/Assets/SMB/Assets/Super Meat Boy/resources.meta
 guid: c8dab5436a215404f94a97fc22c42efd
+=======
+guid: 7b15686d57c574971ae93d118b1b4063
+>>>>>>> Stashed changes:Project2D/Assets/Super Meat Boy/resources.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

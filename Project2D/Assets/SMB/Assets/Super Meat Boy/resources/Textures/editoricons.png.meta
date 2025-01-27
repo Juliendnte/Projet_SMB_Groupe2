@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Project2D/Assets/SMB/Assets/Super Meat Boy/resources/Textures/editoricons.png.meta
 guid: 1907740eeb1268f4a9148833cd8b3a05
+=======
+guid: ec7cdbc77b3b84a8da8ef43d0514cf86
+>>>>>>> Stashed changes:Project2D/Assets/Super Meat Boy/resources/Textures/editoricons.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

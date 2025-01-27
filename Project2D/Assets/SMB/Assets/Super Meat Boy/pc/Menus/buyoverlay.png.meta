@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      buyoverlay_0: -8753552677634034315
+      buyoverlay_1: 6301994001271203189
+      buyoverlay_2: 8668955070131272171
+      buyoverlay_3: 4393410888184502804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

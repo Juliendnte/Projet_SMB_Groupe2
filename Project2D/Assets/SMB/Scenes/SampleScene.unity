@@ -354,11 +354,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 275606959}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61b98e77992f5f949bb214a4a2805b4b, type: 3}
+  m_Script: {fileID: 11500000, guid: b907060a3a080c04a92e3087a95eec28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 5
+  groundCheckDistance: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &325078911
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +672,7 @@ GameObject:
   - component: {fileID: 2073627980}
   - component: {fileID: 2073627979}
   - component: {fileID: 2073627978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,38 @@
+# Unity text assets
+*.cs     text diff=csharp
+*.shader text
+*.txt    text
+*.json   text
+*.xml    text
+*.fnt    text
+*.anim   text
+*.controller text
+*.prefab text
+*.unity  text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.psd binary
+
+# Audio
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Videos
+*.mp4 binary
+*.mov binary
+
+# Other binary files
+*.dll binary
+*.exe binary
+*.so binary
+*.dylib binary

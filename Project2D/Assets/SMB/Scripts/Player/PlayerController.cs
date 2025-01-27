@@ -13,9 +13,11 @@ public class PlayerController : MonoBehaviour
     private InputAction jumpAction;
     private Rigidbody2D rb;
     [SerializeField] private float jumpForce = 5;
+
     void Awake()
     {
         myInputAction = new IA_Player();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void OnEnable()
@@ -30,33 +32,36 @@ public class PlayerController : MonoBehaviour
     void OnDisable()
     {
         moveAction.Disable();
-        myInputAction.Movements.Jump.Disable();
+        jumpAction.Disable();
     }
 
     private void OnJump(InputAction.CallbackContext callbackContext)
     {
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
+        if (rb != null)
+        {
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
     }
 
     void Start()
     {
-
     }
 
     // Update is called once per frame
     void Update()
     {
-
     }
 
     void FixedUpdate()
     {
-        Vector2 moveDir = moveAction.ReadValue<Vector2>();
-        Vector2 vel = rb.linearVelocity;
+        if (rb != null)
+        {
+            Vector2 moveDir = moveAction.ReadValue<Vector2>();
+            Vector2 vel = rb.linearVelocity;
 
-        vel.x = moveDir.x * speed;
+            vel.x = moveDir.x * speed;
 
-        rb.linearVelocity = vel;
+            rb.linearVelocity = vel;
+        }
     }
 }

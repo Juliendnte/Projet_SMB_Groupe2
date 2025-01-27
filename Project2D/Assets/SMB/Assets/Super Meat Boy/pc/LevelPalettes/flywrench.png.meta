@@ -1,35 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Project2D/Assets/SMB/Assets/Super Meat Boy/pc/LevelPalettes/flywrench.png.meta
 guid: 336b651a1480dd445a1bf280d795fcc9
-=======
-guid: e78afe55287634bba8cc8aeeb3acc377
->>>>>>> Stashed changes:Project2D/Assets/Super Meat Boy/pc/LevelPalettes/flywrench.png.meta
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7172847858431241951
-    second: flywrench_0
-  - first:
-      213: 1908444110281701117
-    second: flywrench_1
-  - first:
-      213: 7333534485798656152
-    second: flywrench_2
-  - first:
-      213: -8200233426778300249
-    second: flywrench_3
-  - first:
-      213: -2246779679417650231
-    second: flywrench_4
-  - first:
-      213: 7035897276220584903
-    second: flywrench_5
-  - first:
-      213: -3115050308611914027
-    second: flywrench_6
-  - first:
-      213: -6556929763350910149
-    second: flywrench_7
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -91,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,183 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: flywrench_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 19
-        width: 41
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 121d84a40ece47c90800000000000000
-      internalID: -7172847858431241951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_1
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 19
-        width: 56
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df6f6039ec72c7a10800000000000000
-      internalID: 1908444110281701117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_2
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 19
-        width: 143
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8981b1692c2f5c560800000000000000
-      internalID: 7333534485798656152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_3
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 19
-        width: 46
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a06891252be23e80800000000000000
-      internalID: -8200233426778300249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_4
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 12
-        width: 229
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c3beb719c5d1d0e0800000000000000
-      internalID: -2246779679417650231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_5
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 55
-        width: 42
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c334418b4784a160800000000000000
-      internalID: 7035897276220584903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_6
-      rect:
-        serializedVersion: 2
-        x: 541
-        y: 65
-        width: 44
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d647b1af3e15c4d0800000000000000
-      internalID: -3115050308611914027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flywrench_7
-      rect:
-        serializedVersion: 2
-        x: 543
-        y: 34
-        width: 49
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3b684ece1b1105a0800000000000000
-      internalID: -6556929763350910149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []

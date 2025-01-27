@@ -1,23 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Project2D/Assets/SMB/Assets/Super Meat Boy/pc/LevelPalettes/trans.png.meta
 guid: 46907e683354d3746a35eaedb674c2e9
-=======
-guid: 0656dcee5212646dca0fcd053c6228bd
->>>>>>> Stashed changes:Project2D/Assets/Super Meat Boy/pc/LevelPalettes/trans.png.meta
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8237346014881870733
-    second: trans_0
-  - first:
-      213: -3935918035307444254
-    second: trans_1
-  - first:
-      213: -6559259467311369178
-    second: trans_2
-  - first:
-      213: -2275493403931008802
-    second: trans_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -79,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,95 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: trans_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 106
-        width: 390
-        height: 394
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37c8cfa51711fad80800000000000000
-      internalID: -8237346014881870733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trans_1
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 16
-        width: 107
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e74278766fc069c0800000000000000
-      internalID: -3935918035307444254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trans_2
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 1
-        width: 78
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 624b9455444d8f4a0800000000000000
-      internalID: -6559259467311369178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trans_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 12
-        width: 110
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed0a2f12ec2db60e0800000000000000
-      internalID: -2275493403931008802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []

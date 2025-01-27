@@ -1,23 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Project2D/Assets/SMB/Assets/Super Meat Boy/pc/LevelPalettes/Forest_tile_set.png.meta
 guid: 43dbe80d63b9bf54a890d3184d48493e
-=======
-guid: 5f7c4a7fdd33d4c3bac013a220c082d9
->>>>>>> Stashed changes:Project2D/Assets/Super Meat Boy/pc/LevelPalettes/Forest_tile_set.png.meta
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1881645993971804384
-    second: Forest_tile_set_0
-  - first:
-      213: 4188128478949182363
-    second: Forest_tile_set_1
-  - first:
-      213: 5441928346987914438
-    second: Forest_tile_set_2
-  - first:
-      213: -4268334364213998267
-    second: Forest_tile_set_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -79,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,95 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Forest_tile_set_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 145
-        width: 167
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e8e9b7ef03fc1a10800000000000000
-      internalID: 1881645993971804384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Forest_tile_set_1
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 145
-        width: 167
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9b867579a83f1a30800000000000000
-      internalID: 4188128478949182363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Forest_tile_set_2
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 77
-        width: 166
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c4e75fbffc958b40800000000000000
-      internalID: 5441928346987914438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Forest_tile_set_3
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 9
-        width: 167
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54d8e66a284d3c4c0800000000000000
-      internalID: -4268334364213998267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []

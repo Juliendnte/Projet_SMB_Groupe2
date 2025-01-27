@@ -1,26 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Project2D/Assets/SMB/Assets/Super Meat Boy/pc/LevelPalettes/retroalanimals.png.meta
 guid: b743c9e6fcac7ab47aa935f0aa35f3e6
-=======
-guid: df4ff25ad3e0540b49083032afcfca37
->>>>>>> Stashed changes:Project2D/Assets/Super Meat Boy/pc/LevelPalettes/retroalanimals.png.meta
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6444653666814433712
-    second: retroalanimals_0
-  - first:
-      213: -9082756125840512739
-    second: retroalanimals_1
-  - first:
-      213: 5426517530086632634
-    second: retroalanimals_2
-  - first:
-      213: -9091736329995558066
-    second: retroalanimals_3
-  - first:
-      213: -624961446058108330
-    second: retroalanimals_4
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -82,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,117 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: retroalanimals_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 159
-        width: 148
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b994ee5d52007950800000000000000
-      internalID: 6444653666814433712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: retroalanimals_1
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 81
-        width: 150
-        height: 219
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d19e5c11d6193f180800000000000000
-      internalID: -9082756125840512739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: retroalanimals_2
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 69
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abc6e3451fcde4b40800000000000000
-      internalID: 5426517530086632634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: retroalanimals_3
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 69
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e43e91b5af9a3d180800000000000000
-      internalID: -9091736329995558066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: retroalanimals_4
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 48
-        width: 51
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65a546140e0b357f0800000000000000
-      internalID: -624961446058108330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []

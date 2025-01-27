@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      xblalogo_0: -7862767393569305620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

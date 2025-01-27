@@ -934,7 +934,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      demooutro_0: 2170527780154210760
+      demooutro_1: 7388531039571198563
+      demooutro_10: -2566915786628613015
+      demooutro_11: 5615282410913709197
+      demooutro_12: 5302589316279720469
+      demooutro_13: -642444178365254838
+      demooutro_14: -2154072411596472022
+      demooutro_15: 4615211893948239196
+      demooutro_16: -2934011049036526454
+      demooutro_17: 1604516084052140288
+      demooutro_18: -5993531354047134132
+      demooutro_19: 1585673777244945647
+      demooutro_2: -1658937034340972835
+      demooutro_20: -3848902900791899947
+      demooutro_21: -7818476908788828919
+      demooutro_22: -2032235046838926366
+      demooutro_23: 5639963250648362510
+      demooutro_24: -6295678742430551935
+      demooutro_25: 7660109120242466419
+      demooutro_26: -803047035855099647
+      demooutro_27: -6524668672012521193
+      demooutro_28: -3515255227999218267
+      demooutro_29: 8297961815420293093
+      demooutro_3: 8656263382810676714
+      demooutro_30: 7429797748350631586
+      demooutro_31: 2798736607331068855
+      demooutro_32: -5343763079115712352
+      demooutro_4: 5601950387761501344
+      demooutro_5: -4267462601580823881
+      demooutro_6: -3609257099053242415
+      demooutro_7: -8862107802097420712
+      demooutro_8: 4634015298082427402
+      demooutro_9: -7965896196917550767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

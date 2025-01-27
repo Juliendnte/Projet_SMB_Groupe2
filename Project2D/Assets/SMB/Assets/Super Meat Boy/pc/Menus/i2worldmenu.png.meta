@@ -1009,7 +1009,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      i2worldmenu_0: 2041887835615919032
+      i2worldmenu_1: 3222530322076945799
+      i2worldmenu_10: 8861922169959641097
+      i2worldmenu_11: -8868766929055636662
+      i2worldmenu_12: -3373182376778691277
+      i2worldmenu_13: -1765264506526877309
+      i2worldmenu_14: -7123589345262334472
+      i2worldmenu_15: 8295946168210336660
+      i2worldmenu_16: -3108025969756014183
+      i2worldmenu_17: -4726069900788511377
+      i2worldmenu_18: 5833834325738495126
+      i2worldmenu_19: 1777092095699996426
+      i2worldmenu_2: 4857358044110937262
+      i2worldmenu_20: -1299650924959478055
+      i2worldmenu_21: 5864330446404145039
+      i2worldmenu_22: -2827276109325353222
+      i2worldmenu_23: 6724842901110408732
+      i2worldmenu_24: 9108053024820317888
+      i2worldmenu_25: -7712945182064641001
+      i2worldmenu_26: -3203284115190711796
+      i2worldmenu_27: -7090990264273773078
+      i2worldmenu_28: -5096034581959092449
+      i2worldmenu_29: 5575590297286916659
+      i2worldmenu_3: 1595606612702274807
+      i2worldmenu_30: -1713881269847709315
+      i2worldmenu_31: -2394964397314474656
+      i2worldmenu_32: 709572110371434736
+      i2worldmenu_33: -9091787715613050994
+      i2worldmenu_34: 2023937092877082946
+      i2worldmenu_35: -7832134897546785882
+      i2worldmenu_4: 6380272483475488250
+      i2worldmenu_5: 8693596789427498912
+      i2worldmenu_6: -310052605136250675
+      i2worldmenu_7: -6010469579915967496
+      i2worldmenu_8: 5250023801915316954
+      i2worldmenu_9: 5138854459396264572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

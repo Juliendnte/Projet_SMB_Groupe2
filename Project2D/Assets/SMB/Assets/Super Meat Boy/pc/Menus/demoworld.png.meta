@@ -1034,7 +1034,44 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      demoworld_0: -8829668090476738815
+      demoworld_1: 3982610104023339808
+      demoworld_10: 371329493058427306
+      demoworld_11: 3342342763163390338
+      demoworld_12: -460851562661480971
+      demoworld_13: 5413209492217176379
+      demoworld_14: -368971444370301608
+      demoworld_15: -9089974242960538534
+      demoworld_16: -6257730216188304317
+      demoworld_17: 7356081991887185727
+      demoworld_18: -5998986523496959002
+      demoworld_19: -1686632060801707773
+      demoworld_2: 6850750018830892544
+      demoworld_20: -4299792253717060253
+      demoworld_21: 4325793376254160088
+      demoworld_22: 153954223600047222
+      demoworld_23: -2135221041422717763
+      demoworld_24: -2699866016074234060
+      demoworld_25: -8400976497781817353
+      demoworld_26: 6400653575376628172
+      demoworld_27: -6849507712660857759
+      demoworld_28: -8814126864581904332
+      demoworld_29: 8846780820754416228
+      demoworld_3: -8584371274297124650
+      demoworld_30: 406451985163513743
+      demoworld_31: 6473505478495453541
+      demoworld_32: 4655059605771178893
+      demoworld_33: 7071454766272135663
+      demoworld_34: 201482256665386334
+      demoworld_35: 8825523940978868013
+      demoworld_36: 1099864674671919063
+      demoworld_4: 1539519643024491705
+      demoworld_5: -1415027149246106844
+      demoworld_6: -8328618077636835303
+      demoworld_7: -7837187777545069701
+      demoworld_8: 2834858070382564609
+      demoworld_9: 3391453546558284388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

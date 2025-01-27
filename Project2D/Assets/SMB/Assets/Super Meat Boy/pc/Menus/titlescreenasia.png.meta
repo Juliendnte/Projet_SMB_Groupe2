@@ -459,7 +459,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      titlescreenasia_0: 4457545978812652846
+      titlescreenasia_1: -6147561760340295511
+      titlescreenasia_10: 874096695276054277
+      titlescreenasia_11: 570455537971870787
+      titlescreenasia_12: 6460930570078845881
+      titlescreenasia_13: 3775281581039935704
+      titlescreenasia_2: 8472509212556936620
+      titlescreenasia_3: 2189192956560878372
+      titlescreenasia_4: -2372840584141286649
+      titlescreenasia_5: 9116073175599774466
+      titlescreenasia_6: -6732399267634537107
+      titlescreenasia_7: 8120551664240241763
+      titlescreenasia_8: -7686904346360347385
+      titlescreenasia_9: -4600991973651952484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

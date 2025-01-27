@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flyunlocked_0: -4165715101028243987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

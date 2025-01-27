@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jill_0: -7336791600946707353
+      jill_1: -6374451637639190840
+      jill_10: 1793368312928192126
+      jill_2: 6117967855587730229
+      jill_3: -939652707765267396
+      jill_4: 7905390681702068979
+      jill_5: 9202481036735119998
+      jill_6: -2978948322529767925
+      jill_7: -6941115704387321843
+      jill_8: 7010308048309566583
+      jill_9: -8379585087423744828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

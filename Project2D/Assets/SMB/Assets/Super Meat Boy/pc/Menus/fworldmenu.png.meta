@@ -1109,7 +1109,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fworldmenu_0: -1347029421664207055
+      fworldmenu_1: -7795730478701144751
+      fworldmenu_10: -5957365729017284900
+      fworldmenu_11: -6579568027966975587
+      fworldmenu_12: 236204386424357861
+      fworldmenu_13: 4514235654427086497
+      fworldmenu_14: 4551582850638391321
+      fworldmenu_15: 3127630022614196970
+      fworldmenu_16: -2649449436545315212
+      fworldmenu_17: -4508261115761164847
+      fworldmenu_18: 8261258434358036939
+      fworldmenu_19: -7684449526338908630
+      fworldmenu_2: 9027728643788717150
+      fworldmenu_20: -2319243455100016435
+      fworldmenu_21: 5447831251924101626
+      fworldmenu_22: -3631343327178027267
+      fworldmenu_23: -3431347578450575070
+      fworldmenu_24: -2782823640363752395
+      fworldmenu_25: -5852820794264172041
+      fworldmenu_26: 2497984472875616620
+      fworldmenu_27: 2447608880990987867
+      fworldmenu_28: -2004834131402992482
+      fworldmenu_29: -8610674023109606125
+      fworldmenu_3: -9009121180787661918
+      fworldmenu_30: -422899596039450369
+      fworldmenu_31: 5205445290460824513
+      fworldmenu_32: 5580251245192433198
+      fworldmenu_33: -5462849052987741484
+      fworldmenu_34: -3089840544762093066
+      fworldmenu_35: -2572820620076298935
+      fworldmenu_36: 6288851584094348161
+      fworldmenu_37: -5790702285220345856
+      fworldmenu_38: 375017212061427888
+      fworldmenu_39: -9028333514208225851
+      fworldmenu_4: 6412515996183345466
+      fworldmenu_5: -6795711665926739778
+      fworldmenu_6: -621369880230425157
+      fworldmenu_7: -3211657491718208795
+      fworldmenu_8: 2643052797196061667
+      fworldmenu_9: -4020537968382325521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -684,7 +684,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flevelmenu_0: -4080411201331457790
+      flevelmenu_1: -78465631755378470
+      flevelmenu_10: -4611897723924941342
+      flevelmenu_11: 7260177501041457166
+      flevelmenu_12: -1742766786465632355
+      flevelmenu_13: -5645282292263105571
+      flevelmenu_14: -8766738962946278015
+      flevelmenu_15: -4766548108025713168
+      flevelmenu_16: -4770414302722911750
+      flevelmenu_17: 7123814788242126573
+      flevelmenu_18: -4144058786819516206
+      flevelmenu_19: 4619084417305398515
+      flevelmenu_2: 8808180429891794573
+      flevelmenu_20: -5764546603459597125
+      flevelmenu_21: 4214314022115686351
+      flevelmenu_22: 4719296452448394877
+      flevelmenu_3: 6961230569925240943
+      flevelmenu_4: -2904048997572067901
+      flevelmenu_5: 4673524409414770062
+      flevelmenu_6: -7344747021216638608
+      flevelmenu_7: 5186676525806107146
+      flevelmenu_8: 7124616603500228295
+      flevelmenu_9: -427323859597263744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

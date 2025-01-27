@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eworldmenu_0: -625131982552715419
+      eworldmenu_1: -955418009107510931
+      eworldmenu_10: 7632137285623677381
+      eworldmenu_11: 3159175081469369857
+      eworldmenu_12: 240674258121313222
+      eworldmenu_13: 8151202063413065380
+      eworldmenu_14: -4053941533376703205
+      eworldmenu_15: 1797682815494390809
+      eworldmenu_16: -5267199336302509314
+      eworldmenu_2: 5527391227734580190
+      eworldmenu_3: 4684078043261754011
+      eworldmenu_4: -6424473113881458139
+      eworldmenu_5: 8131687112353704332
+      eworldmenu_6: -6636721187105050008
+      eworldmenu_7: -543299060915822216
+      eworldmenu_8: 8204718857566374991
+      eworldmenu_9: -2463084997769684337
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

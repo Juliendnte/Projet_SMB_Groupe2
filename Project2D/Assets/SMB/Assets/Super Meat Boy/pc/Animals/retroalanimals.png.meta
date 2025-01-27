@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      retroalanimals_0: 6444653666814433712
+      retroalanimals_1: -9082756125840512739
+      retroalanimals_2: 5426517530086632634
+      retroalanimals_3: -9091736329995558066
+      retroalanimals_4: -624961446058108330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

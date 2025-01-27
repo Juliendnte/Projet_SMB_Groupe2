@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spelunkyunlocked_0: -3553224204931103238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

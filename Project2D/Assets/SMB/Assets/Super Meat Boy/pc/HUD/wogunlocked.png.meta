@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wogunlocked_0: -272774727540254720
+      wogunlocked_1: -6628987155256616382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

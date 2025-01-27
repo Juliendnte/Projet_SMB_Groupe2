@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gbunlocked_0: 9145390006308592863
+      gbunlocked_1: 2445859924161021024
+      gbunlocked_2: 8524222094993277104
+      gbunlocked_3: 3354680136828799583
+      gbunlocked_4: -8303626472834325121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

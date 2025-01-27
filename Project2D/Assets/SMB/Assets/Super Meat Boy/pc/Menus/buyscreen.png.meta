@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      buyscreen_0: -682254763629826865
+      buyscreen_1: 8016785582619298858
+      buyscreen_10: 857510946138753876
+      buyscreen_2: 3569294571863382290
+      buyscreen_3: 5871011970183155648
+      buyscreen_4: 4013692892955137024
+      buyscreen_5: -4159333127718547817
+      buyscreen_6: -3478382885525541051
+      buyscreen_7: -1148106061857132493
+      buyscreen_8: -2806953232013138096
+      buyscreen_9: 1912683810872543084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

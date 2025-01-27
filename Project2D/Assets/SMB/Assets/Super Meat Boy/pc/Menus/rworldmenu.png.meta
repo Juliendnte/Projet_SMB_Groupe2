@@ -884,7 +884,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rworldmenu_0: -7116031788852178276
+      rworldmenu_1: -8021819602303632941
+      rworldmenu_10: 5529551098648578032
+      rworldmenu_11: -1736263261749898475
+      rworldmenu_12: 5920686844090226300
+      rworldmenu_13: -8971313892127375409
+      rworldmenu_14: 1370010266288440997
+      rworldmenu_15: -7539658029039982230
+      rworldmenu_16: -3318506159825762121
+      rworldmenu_17: -2057553972833332271
+      rworldmenu_18: 1665261463028951229
+      rworldmenu_19: 5340382523326910775
+      rworldmenu_2: 3968976421080308136
+      rworldmenu_20: -2988509584124689528
+      rworldmenu_21: 3864949164220662118
+      rworldmenu_22: -9183776830844280836
+      rworldmenu_23: -6059520006805136653
+      rworldmenu_24: 2850217753788838022
+      rworldmenu_25: 7438431721851374465
+      rworldmenu_26: -5852718486316700623
+      rworldmenu_27: 5635216807456970095
+      rworldmenu_28: 8659294385651293104
+      rworldmenu_29: 7234325062938452647
+      rworldmenu_3: 7785487048657849527
+      rworldmenu_30: -7091308004264424648
+      rworldmenu_4: 954048017167050428
+      rworldmenu_5: 1083891010346810469
+      rworldmenu_6: -1544522049839985382
+      rworldmenu_7: 8954784622767166145
+      rworldmenu_8: 7835592659179312173
+      rworldmenu_9: 370919188456662265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crabunlocked_0: 7009727458975932461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      replayhud_0: 3917745731220099581
+      replayhud_1: 3866629422556525767
+      replayhud_2: 5105351950117048890
+      replayhud_3: -7279666183670356296
+      replayhud_4: -9031623912769459457
+      replayhud_5: -6126773689915402970
+      replayhud_6: 8084322649118819695
+      replayhud_7: -4741859278645561016
+      replayhud_8: 7777890154089374596
+      replayhud_9: 8167440384489197092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ogmounlocked_0: -1932802115196322897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

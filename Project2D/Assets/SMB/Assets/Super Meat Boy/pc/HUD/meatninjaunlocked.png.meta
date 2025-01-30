@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      meatninjaunlocked_0: 2609094957451609552
+      meatninjaunlocked_1: -5001554459347258635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

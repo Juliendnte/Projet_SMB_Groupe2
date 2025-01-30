@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      intertetsunlocked_0: -6219670630705570899
+      intertetsunlocked_1: -5259431617219703589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

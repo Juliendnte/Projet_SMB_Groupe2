@@ -559,7 +559,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bworldmenu_0: 4625711872253807828
+      bworldmenu_1: -8713238548668571879
+      bworldmenu_10: -8704658751583707477
+      bworldmenu_11: -2162284765568913776
+      bworldmenu_12: 905038612035818827
+      bworldmenu_13: -4999687770336872215
+      bworldmenu_14: 6691580802732248648
+      bworldmenu_15: -6639877442034574510
+      bworldmenu_16: 692560650377437127
+      bworldmenu_17: 5155776051235164383
+      bworldmenu_2: -4615798395270651352
+      bworldmenu_3: -7850211811011476696
+      bworldmenu_4: -2251020142338070831
+      bworldmenu_5: 2961449275791753636
+      bworldmenu_6: 3130035207225368955
+      bworldmenu_7: -823356391955052045
+      bworldmenu_8: 4707004172184002033
+      bworldmenu_9: 5750036907079168101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -884,7 +884,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      meatworld_0: 2799311892740074696
+      meatworld_1: -111328927099832337
+      meatworld_10: -270682738236704280
+      meatworld_11: -2726658767649602626
+      meatworld_12: -4651533513404278612
+      meatworld_13: -657058463598876119
+      meatworld_14: 9071839588777892623
+      meatworld_15: 1621462828612814064
+      meatworld_16: -5202340864318083184
+      meatworld_17: -1097419493931137666
+      meatworld_18: -7776471074594098452
+      meatworld_19: -8545112983986527480
+      meatworld_2: -6361303246321432008
+      meatworld_20: 1832738451496744907
+      meatworld_21: 3660552079010268756
+      meatworld_22: 1833632606010574655
+      meatworld_23: -842892408784699667
+      meatworld_24: -9845482388219240
+      meatworld_25: -5128442261042062540
+      meatworld_26: -2047577647533864624
+      meatworld_27: -7187477971474338519
+      meatworld_28: 3828729793144098166
+      meatworld_29: -7500578719008726195
+      meatworld_3: -1629306232227612375
+      meatworld_30: -7452398927156401950
+      meatworld_4: -1767536905530375536
+      meatworld_5: -8651044299247173630
+      meatworld_6: 5295463786118733575
+      meatworld_7: 4937121341859782342
+      meatworld_8: -5812329677594370297
+      meatworld_9: -5125893794098144524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

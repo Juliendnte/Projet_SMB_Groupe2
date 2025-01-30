@@ -9,9 +9,10 @@ public class PlayerController : MonoBehaviour
     private int speed = 10;
 
     [SerializeField] private int jumpForce = 5;
+    public int test = 5;
 
     [Header("Ground Check Settings")] [SerializeField]
-    private float groundCheckDistance = 0.2f;
+    private float groundCheckDistance = 1f;
 
     [SerializeField] private LayerMask groundLayer;
 
@@ -51,18 +52,21 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 moveDir = moveAction.ReadValue<Vector2>();
-        Vector2 vel = rb.linearVelocity;
+        /*if (rb != null)
+        {
+            Vector2 moveDir = moveAction.ReadValue<Vector2>();
+            Vector2 vel = rb.linearVelocity;
 
-        vel.x = moveDir.x * speed;
+            vel.x = moveDir.x * speed;
 
-        rb.linearVelocity = vel;
+            rb.linearVelocity = vel;
+        }*/
     }
 
     private bool IsGrounded()
     {
         Vector2 rayOrigin = (Vector2)transform.position + Vector2.down * 0.5f;
-        Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, Color.red); 
+        Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, Color.red); // Debug pour visualiser le ray
         return Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
     }
 }

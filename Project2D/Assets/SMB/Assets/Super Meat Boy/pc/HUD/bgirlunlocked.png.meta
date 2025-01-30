@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bgirlunlocked_0: 751122307929772731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

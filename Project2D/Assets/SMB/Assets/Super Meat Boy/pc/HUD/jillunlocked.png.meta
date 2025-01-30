@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jillunlocked_0: -8230827769339941267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

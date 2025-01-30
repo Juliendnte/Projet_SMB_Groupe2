@@ -1359,7 +1359,57 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blevelmenu_0: 3369377575663630218
+      blevelmenu_1: 7124245604320661379
+      blevelmenu_10: 256392250848185578
+      blevelmenu_11: 8869668970983975965
+      blevelmenu_12: -4483463683932409157
+      blevelmenu_13: 1387309510421264761
+      blevelmenu_14: -2099966081731045125
+      blevelmenu_15: -7973412564026013925
+      blevelmenu_16: -3667461508118551525
+      blevelmenu_17: 4905754547149454168
+      blevelmenu_18: -4341595318768827473
+      blevelmenu_19: 710497479893835859
+      blevelmenu_2: 649483189371841531
+      blevelmenu_20: -7952818632400298662
+      blevelmenu_21: -4813034856393966392
+      blevelmenu_22: 5761320713321321613
+      blevelmenu_23: -365660612657418597
+      blevelmenu_24: -4941081494448956130
+      blevelmenu_25: -8018921315033575795
+      blevelmenu_26: -2438605926689927448
+      blevelmenu_27: -4387507792808473612
+      blevelmenu_28: -438783317950366782
+      blevelmenu_29: -7015978654847973346
+      blevelmenu_3: -775920804977429772
+      blevelmenu_30: 24523117575536684
+      blevelmenu_31: -7982301418894820016
+      blevelmenu_32: -2559729501465670096
+      blevelmenu_33: -6188757073666342400
+      blevelmenu_34: -4459336227098707170
+      blevelmenu_35: 1464028720241105297
+      blevelmenu_36: 1905319074252617223
+      blevelmenu_37: -8343514527717093242
+      blevelmenu_38: -2365516230471766576
+      blevelmenu_39: 783207007531344700
+      blevelmenu_4: -6515395224039329995
+      blevelmenu_40: -2161221718030657927
+      blevelmenu_41: -7312183125977082348
+      blevelmenu_42: 3348458688791366053
+      blevelmenu_43: -4372456535464531084
+      blevelmenu_44: 8418875351310178105
+      blevelmenu_45: -7946532212816817674
+      blevelmenu_46: -5035992123481588636
+      blevelmenu_47: -3116366987002427392
+      blevelmenu_48: -2181837931442781128
+      blevelmenu_49: 2818988751850461135
+      blevelmenu_5: 2204435147296273633
+      blevelmenu_6: -2330357405688409327
+      blevelmenu_7: -3998161326629917973
+      blevelmenu_8: -2554922447989841165
+      blevelmenu_9: 3238835663476099628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

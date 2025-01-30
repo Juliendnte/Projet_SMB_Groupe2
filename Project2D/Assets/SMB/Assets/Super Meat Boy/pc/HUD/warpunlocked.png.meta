@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      warpunlocked_0: 4193196866769440760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

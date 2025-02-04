@@ -18,11 +18,13 @@ public class PlayerController : MonoBehaviour
     private InputAction moveAction;
     private InputAction jumpAction;
     private Rigidbody2D rb;
+    private Collider2D playerCollider;
 
     void Awake()
     {
         myInputAction = new IA_Player();
         rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
     }
 
     void OnEnable()

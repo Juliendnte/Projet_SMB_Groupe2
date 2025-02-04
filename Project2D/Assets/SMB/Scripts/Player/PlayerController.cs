@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
     [Header("Respawn Settings")]
-    [SerializeField] private Transform respawnPoint; // Ajout du point de respawn
+    [SerializeField] private GameObject respawnPoint; // Ajout du point de respawn
 
     private IA_Player myInputAction;
     private InputAction moveAction;
@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
     // Fonction de respawn
     private void Respawn()
     {
-        transform.position = respawnPoint.position;
+        transform.position = respawnPoint.transform.position;
         Debug.Log("Le joueur a touché un obstacle et a été replacé !");
     }
 

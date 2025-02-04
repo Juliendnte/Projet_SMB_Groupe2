@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4710256249967619185}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.27, y: -4.35, z: 0}
+  m_LocalPosition: {x: -12, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108,6 +108,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 4096
+  respawnPoint: {fileID: 0}
 --- !u!50 &7259433489013407797
 Rigidbody2D:
   serializedVersion: 5

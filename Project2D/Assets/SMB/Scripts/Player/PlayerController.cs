@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float wallJumpForceY = 10;
     [SerializeField] private LayerMask wallLayer; // Assigné dans l'inspecteur (par exemple, layer "WALL")
 
+    [Header("Respawn Settings")]
+    [SerializeField] private GameObject respawnPoint; // Ajout du point de respawn
     [Header("Advanced Settings")] [SerializeField]
     private float coyoteTimeDuration = .1f; // Temps de grâce pour le saut
 
@@ -119,9 +121,8 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        // Vérifier avec un Raycast vers le sol
         Vector2 rayOrigin = (Vector2)transform.position + Vector2.down * (0.5f + groundCheckDistance);
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance);
         Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, Color.red);
 
         return hit.collider != null;
@@ -186,6 +187,15 @@ public class PlayerController : MonoBehaviour
     {
         isWallJumping = false;
     }
+        return Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
+    }
+
+    // Fonction de respawn
+    private void Respawn()
+    {
+        transform.position = respawnPoint.transform.position;
+        Debug.Log("Le joueur a touché un obstacle et a été replacé !");
+    }
 
     private void OnDrawGizmos()
     {
@@ -205,5 +215,12 @@ public class PlayerController : MonoBehaviour
         Gizmos.color = Color.green; // Vert pour le mur à droite
         Vector2 rightRayOrigin = (Vector2)transform.position + Vector2.right * 0.5f;
         Gizmos.DrawLine(rightRayOrigin, rightRayOrigin + Vector2.right * wallCheckDistance);
+    // Détection des collisions avec les obstacles
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Scie Circulaire")) // Remplace "Obstacle" par le tag de tes objets dangereux
+        {
+            Respawn();
+        }
     }
 }

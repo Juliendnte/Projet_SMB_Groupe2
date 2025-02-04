@@ -187,8 +187,6 @@ public class PlayerController : MonoBehaviour
     {
         isWallJumping = false;
     }
-        return Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
-    }
 
     // Fonction de respawn
     private void Respawn()
@@ -215,6 +213,8 @@ public class PlayerController : MonoBehaviour
         Gizmos.color = Color.green; // Vert pour le mur à droite
         Vector2 rightRayOrigin = (Vector2)transform.position + Vector2.right * 0.5f;
         Gizmos.DrawLine(rightRayOrigin, rightRayOrigin + Vector2.right * wallCheckDistance);
+    }
+
     // Détection des collisions avec les obstacles
     private void OnTriggerEnter2D(Collider2D other)
     {

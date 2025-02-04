@@ -13,17 +13,19 @@ public class PlayerController : MonoBehaviour
     [Header("Ground Check Settings")] [SerializeField]
     private float groundCheckDistance = 0.2f;
 
-    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private string groundTag = "Ground";
 
     private IA_Player myInputAction;
     private InputAction moveAction;
     private InputAction jumpAction;
     private Rigidbody2D rb;
+    private Collider2D playerCollider;
 
     void Awake()
     {
         myInputAction = new IA_Player();
         rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
     }
 
     void OnEnable()
@@ -61,8 +63,17 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        Vector2 rayOrigin = (Vector2)transform.position + Vector2.down * 0.5f;
-        Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, Color.red); 
-        return Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
+        Vector2 rayOrigin = (Vector2)transform.position + Vector2.down * (0.5f + groundCheckDistance);
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance);
+        Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, Color.red);
+        if (hit.collider != null)
+        {
+            if (hit.collider.CompareTag(groundTag))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

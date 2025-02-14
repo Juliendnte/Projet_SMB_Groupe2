@@ -18,7 +18,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float wallJumpForceX = 15;
     [SerializeField] private float wallJumpForceY = 7;
-    [SerializeField] private LayerMask wallLayer; // Assigné dans l'inspecteur (par exemple, layer "WALL")
+    [SerializeField] private LayerMask wallLayer; 
+    [SerializeField] private LayerMask wallBreakLayer; 
 
     [Header("Respawn Settings")]
     [SerializeField] private GameObject respawnPoint; // Ajout du point de respawn
@@ -162,7 +163,10 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 leftRayOrigin = (Vector2)transform.position + Vector2.left * 0.5f;
         RaycastHit2D hitLeft = Physics2D.Raycast(leftRayOrigin, Vector2.left, wallCheckDistance, wallLayer);
-
+        if (hitLeft.collider == null)
+        {
+            hitLeft = Physics2D.Raycast(leftRayOrigin, Vector2.left, wallCheckDistance, wallBreakLayer);
+        }
         Debug.DrawRay(leftRayOrigin, Vector2.left * wallCheckDistance, Color.blue);
 
         return hitLeft.collider != null;
@@ -172,6 +176,10 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 rightRayOrigin = (Vector2)transform.position + Vector2.right * 0.5f;
         RaycastHit2D hitRight = Physics2D.Raycast(rightRayOrigin, Vector2.right, wallCheckDistance, wallLayer);
+        if (hitRight.collider == null)
+        {
+            hitRight = Physics2D.Raycast(rightRayOrigin, Vector2.right, wallCheckDistance, wallBreakLayer);
+        }
 
         Debug.DrawRay(rightRayOrigin, Vector2.right * wallCheckDistance, Color.green);
 

@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     [Header("Player Settings")] [SerializeField]
     private int speed = 10;
 
-    [SerializeField] private int jumpForce = 7;
+    [SerializeField] private int jumpForce = 5;
 
     [Header("Ground Check Settings")] [SerializeField]
     private float groundCheckDistance = .1f;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private float wallCheckDistance = .1f;
 
     [SerializeField] private float wallJumpForceX = 15;
-    [SerializeField] private float wallJumpForceY = 10;
+    [SerializeField] private float wallJumpForceY = 7;
     [SerializeField] private LayerMask wallLayer; // Assigné dans l'inspecteur (par exemple, layer "WALL")
 
     [Header("Respawn Settings")]

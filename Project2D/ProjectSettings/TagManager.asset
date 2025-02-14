@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Scie Circulaire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - CameraBoundsLayer
   - Water
   - UI
   - 

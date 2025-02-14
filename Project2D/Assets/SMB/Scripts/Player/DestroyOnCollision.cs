@@ -8,8 +8,6 @@ public class DestroyBlock : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision détectée avec : " + collision.gameObject.name);
-
         // Vérifie si le Layer de l'objet fait partie du LayerMask
         if ((blockBreakLayerMask.value & (1 << collision.gameObject.layer)) > 0)
         {

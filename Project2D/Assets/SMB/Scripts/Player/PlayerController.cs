@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     [Header("Ground Check Settings")] [SerializeField]
     private float groundCheckDistance = .1f;
 
-    [SerializeField] private LayerMask groundLayer; // Assigné dans l'inspecteur (par exemple, layer "FIRST")
+    [SerializeField] private LayerMask groundLayer; 
 
     [Header("Wall Jump Settings")] [SerializeField]
     private float wallCheckDistance = .1f;
@@ -22,18 +22,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask wallBreakLayer; 
 
     [Header("Respawn Settings")]
-    [SerializeField] private GameObject respawnPoint; // Ajout du point de respawn
+    [SerializeField] private GameObject respawnPoint; 
     [Header("Advanced Settings")] [SerializeField]
-    private float coyoteTimeDuration = .1f; // Temps de grâce pour le saut
+    private float coyoteTimeDuration = .1f; 
 
-    [SerializeField] private float jumpBufferTime = .1f; // Temps de buffer pour les sauts
+    [SerializeField] private float jumpBufferTime = .1f; 
 
     private IA_Player myInputAction;
     private InputAction moveAction;
     private InputAction jumpAction;
     private Rigidbody2D rb;
 
-    private bool isWallJumping;
     private bool isCoyoteTimeActive;
     private float coyoteTimeCounter;
     private bool jumpBuffered;
@@ -124,14 +123,12 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 rayOrigin = (Vector2)transform.position + Vector2.down * (0.5f + groundCheckDistance);
         RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance);
-        Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, Color.red);
 
         return hit.collider != null;
     }
 
     private void PerformWallJump()
     {
-        isWallJumping = true;
 
         // Déterminer la direction du saut
         Vector2 wallJumpDirection;
@@ -154,9 +151,6 @@ public class PlayerController : MonoBehaviour
 
         // Appliquer la force diagonale pour le saut mural
         rb.AddForce(wallJumpDirection, ForceMode2D.Impulse);
-
-        // Désactiver temporairement les contrôles
-        Invoke(nameof(ResetWallJump), 0.2f);
     }
 
     private bool IsTouchingWallLeft()
@@ -167,7 +161,6 @@ public class PlayerController : MonoBehaviour
         {
             hitLeft = Physics2D.Raycast(leftRayOrigin, Vector2.left, wallCheckDistance, wallBreakLayer);
         }
-        Debug.DrawRay(leftRayOrigin, Vector2.left * wallCheckDistance, Color.blue);
 
         return hitLeft.collider != null;
     }
@@ -181,7 +174,6 @@ public class PlayerController : MonoBehaviour
             hitRight = Physics2D.Raycast(rightRayOrigin, Vector2.right, wallCheckDistance, wallBreakLayer);
         }
 
-        Debug.DrawRay(rightRayOrigin, Vector2.right * wallCheckDistance, Color.green);
 
         return hitRight.collider != null;
     }
@@ -191,42 +183,17 @@ public class PlayerController : MonoBehaviour
         return IsTouchingWallLeft() || IsTouchingWallRight();
     }
 
-    private void ResetWallJump()
-    {
-        isWallJumping = false;
-    }
-
     // Fonction de respawn
     private void Respawn()
     {
         transform.position = respawnPoint.transform.position;
-        Debug.Log("Le joueur a touché un obstacle et a été replacé !");
     }
-
-    private void OnDrawGizmos()
-    {
-        if (!Application.isPlaying || rb == null) return;
-
-        // Rayon pour vérifier le sol
-        Gizmos.color = Color.red; // Rouge pour le sol
-        Vector2 rayOrigin = (Vector2)transform.position + Vector2.down * (0.5f + groundCheckDistance);
-        Gizmos.DrawLine(rayOrigin, rayOrigin + Vector2.down * groundCheckDistance);
-
-        // Rayon pour vérifier le mur à gauche
-        Gizmos.color = Color.blue; // Bleu pour le mur à gauche
-        Vector2 leftRayOrigin = (Vector2)transform.position + Vector2.left * 0.5f;
-        Gizmos.DrawLine(leftRayOrigin, leftRayOrigin + Vector2.left * wallCheckDistance);
-
-        // Rayon pour vérifier le mur à droite
-        Gizmos.color = Color.green; // Vert pour le mur à droite
-        Vector2 rightRayOrigin = (Vector2)transform.position + Vector2.right * 0.5f;
-        Gizmos.DrawLine(rightRayOrigin, rightRayOrigin + Vector2.right * wallCheckDistance);
-    }
+    
 
     // Détection des collisions avec les obstacles
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Scie Circulaire")) // Remplace "Obstacle" par le tag de tes objets dangereux
+        if (other.CompareTag("Scie Circulaire")) 
         {
             Respawn();
         }

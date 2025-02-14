@@ -1,6 +1,8 @@
+using System.Collections;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,23 +14,23 @@ public class PlayerController : MonoBehaviour
     [Header("Ground Check Settings")] [SerializeField]
     private float groundCheckDistance = .1f;
 
-    [SerializeField] private LayerMask groundLayer; 
+    [SerializeField] private LayerMask groundLayer;
 
     [Header("Wall Jump Settings")] [SerializeField]
     private float wallCheckDistance = .1f;
-    
 
     [SerializeField] private float wallJumpForceX = 15;
     [SerializeField] private float wallJumpForceY = 7;
-    [SerializeField] private LayerMask wallLayer; 
-    [SerializeField] private LayerMask wallBreakLayer; 
+    [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private LayerMask wallBreakLayer;
 
-    [Header("Respawn Settings")]
-    [SerializeField] private GameObject respawnPoint; 
+    [Header("Respawn Settings")] [SerializeField]
+    private GameObject respawnPoint;
+
     [Header("Advanced Settings")] [SerializeField]
-    private float coyoteTimeDuration = .1f; 
+    private float coyoteTimeDuration = .1f;
 
-    [SerializeField] private float jumpBufferTime = .1f; 
+    [SerializeField] private float jumpBufferTime = .1f;
 
     private IA_Player myInputAction;
     private InputAction moveAction;
@@ -131,7 +133,6 @@ public class PlayerController : MonoBehaviour
 
     private void PerformWallJump()
     {
-
         // Déterminer la direction du saut
         Vector2 wallJumpDirection;
 
@@ -190,20 +191,36 @@ public class PlayerController : MonoBehaviour
     {
         transform.position = respawnPoint.transform.position;
     }
-    
 
+    private void FinishLevel()
+    {
+        Debug.Log("Niveau terminé !");
+        StartCoroutine(FinishLevelWithDelay()); // Démarrer une coroutine avec un délai
+    }
+
+    private IEnumerator FinishLevelWithDelay()
+    {
+        // Empêcher le joueur de bouger
+        moveAction.Disable(); // Désactiver les mouvements
+        rb.linearVelocity = Vector2.zero; // Réinitialiser la vélocité du joueur
+
+        yield return new WaitForSeconds(2f); // Attendre 2 secondes
+
+        // Recharger la scène
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    
     // Détection des collisions avec les obstacles
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Scie Circulaire")) 
+        if (other.CompareTag("Scie Circulaire"))
         {
             Respawn();
         }
-        
+
         if (other.CompareTag("Finish"))
         {
-            Debug.Log("Niveau terminé !");
+            FinishLevel();
         }
     }
-    
 }

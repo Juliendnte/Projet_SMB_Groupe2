@@ -7479,6 +7479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scie (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3685422594199171909, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4277741553679262587, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: rotationSpeed
       value: 300
@@ -7521,6 +7525,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717006975499935924, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657126940566955471, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8209,6 +8217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scie (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3685422594199171909, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4277741553679262587, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: rotationSpeed
       value: 300
@@ -8251,6 +8263,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717006975499935924, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657126940566955471, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8368,6 +8384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scie (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3685422594199171909, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4277741553679262587, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: rotationSpeed
       value: 300
@@ -8410,6 +8430,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717006975499935924, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657126940566955471, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8663,6 +8687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scie (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3685422594199171909, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4277741553679262587, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: rotationSpeed
       value: 300
@@ -8705,6 +8733,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717006975499935924, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657126940566955471, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -41894,6 +41926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3685422594199171909, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4277741553679262587, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: rotationSpeed
       value: 300
@@ -41936,6 +41972,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717006975499935924, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657126940566955471, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -42139,6 +42179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scie (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3685422594199171909, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4277741553679262587, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: rotationSpeed
       value: 300
@@ -42181,6 +42225,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717006975499935924, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657126940566955471, guid: 601c35d39d38d014b902d1a17307b8be, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

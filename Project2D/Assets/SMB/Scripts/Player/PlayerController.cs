@@ -1,3 +1,4 @@
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Wall Jump Settings")] [SerializeField]
     private float wallCheckDistance = .1f;
+    
 
     [SerializeField] private float wallJumpForceX = 15;
     [SerializeField] private float wallJumpForceY = 7;
@@ -197,5 +199,11 @@ public class PlayerController : MonoBehaviour
         {
             Respawn();
         }
+        
+        if (other.CompareTag("Finish"))
+        {
+            Debug.Log("Niveau terminé !");
+        }
     }
+    
 }
